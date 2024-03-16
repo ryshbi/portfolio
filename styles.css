@@ -1,0 +1,133 @@
+body {
+    font-family: "Jost", sans-serif;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+    justify-content: center;
+    padding: 10px 50px;
+}
+
+.work-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+    justify-content: center;
+    padding: 10px 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}
+
+.link{
+    width: 10rem;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.875rem;
+}
+
+.link-image{
+    width: 10rem;
+}
+
+.person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.person-img {
+    width: 18rem;
+    border-radius: 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+.portfolio-card {
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.1s ease;
+}
+
+.portfolio-card:hover {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.work-image {
+    width: 10rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.portfolio-content {
+    padding: 16px;
+    align-items: center;
+}
+
+.portfolio-title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.portfolio-description {
+    margin: 20px 0;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.portfolio-link {
+    width: 100%;
+    padding: 10px 30px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.875rem;
+}
+
+footer {
+    text-align: center;
+}
